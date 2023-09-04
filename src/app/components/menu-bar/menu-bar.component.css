@@ -1,0 +1,15 @@
+.div-menu{
+	display: flex;
+	flex-direction: row;
+	position:fixed;
+	z-index: 999;
+	background-color: aliceblue;
+	width: 100%;
+}
+.menu-bar-logo{
+
+}
+.menu-bar-item{
+
+	color: aliceblue;
+}
