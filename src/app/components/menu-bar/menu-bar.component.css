@@ -38,3 +38,9 @@
 	padding: 5px;
 
 }
+
+.menu-bar-item > ul > li > a:hover{
+	color: darkblue;
+	font-weight: 600;
+
+}
