@@ -3,12 +3,30 @@
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 70px;
 	background-color: rgba(0,0,0,0.8);
+	padding: 10px;
+	color: antiquewhite;
+	font-family: Calibri;
 }
-.div-pricing-title{}
-.div-pricing-value{}
-.div-pricing-value-console{}
+.div-pricing-title{
+	margin-bottom: 3px;
+}
+.div-pricing-value{
+	display: flex;
+	justify-content: space-between;
+}
+.div-pricing-value-console{
+	display: flex;
+}
+.div-pricing-value-console > span{
+	font-weight: bold;
+	color: aqua;
+	margin-right: 10px;
+}
+
 .div-pricing-value-mon{}
 .p-value{}
